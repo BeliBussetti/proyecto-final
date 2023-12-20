@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Reserva</title>
+    
+</head>
+<body>
+    <header >
+        <!--Menu de navegacion con 5 enlaces-->
+            <a href="../Index.html"><img class="logo" src="../imag/logo.png" alt=""></a>
+            <nav>
+                <ul>
+                    <li><a href="../pages/productos.html">Productos</a></li>
+                    <li> <a href="">Reserva</a></li>
+                    <li><a href="../pages/info.html">Sobre Nosotros</a></li>
+                    <li><a href="../pages/contacto.html">Contactanos</a></li>
+                </ul>
+            
+            </nav>
+      
+    </header>
+    <main class="pages-flex">
+        <h1> Reserva Online</h1>
+         <div class="centrado">
+            <p>Ahora podes hacer tu reserva de manera online. <br> Rellená el formulario y nosotros nos comunicamos con vos para ultimar detalles
+            </p>
+            <form action="form.php" method="post">
+            <label for="">Nombre y apellido</label>
+            <br>
+            <input type="text" name="Nombre" id="">
+            <br>
+            <label for="">Numero de telefono</label>
+            <br>
+            <input type="text" name="telefono" id="">
+            <br>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Reservar
+              </button>
+            </form>
+         </div>
+    </main>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Gracias</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              La primera parte de tu reserva está hecha, nos pondremos en contacto contigo para ultimar detalles
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Ok</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer >Todos los derechos reservados</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
