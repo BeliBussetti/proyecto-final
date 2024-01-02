@@ -182,7 +182,7 @@ input {
   header nav ul li a {
     font-size: 18px; }
   body {
-    background-color: tomato; }
+    background-color: #121212; }
   .container-productos {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "titulo titulo" "foto texto" "otros otros"; }
@@ -219,7 +219,7 @@ input {
       header ul li a {
         font-size: 25%; }
   body {
-    background-color: brown; }
+    background-color: #121212; }
   .container-productos {
     grid-template-columns: 1fr;
     grid-template-areas: "titulo" "foto" "texto" "otros"; }
